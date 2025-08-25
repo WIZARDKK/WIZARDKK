@@ -16,14 +16,15 @@
 ---
 
 ## 🛠️ Tech Stack & Tools
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+<p align="center">
+  <img src="./assets/framwork-grid.svg" alt="Kasun Shakthi — Liquid Glass Banner" />
+</p>
+<p align="center">
+  <img src="./assets/icon-grid.svg" alt="Kasun Shakthi — Liquid Glass Banner" />
+</p>
+<p align="center">
+  <img src="./assets/ides-grid.svg" alt="Kasun Shakthi — Liquid Glass Banner" />
+</p>
 
 
 ---
