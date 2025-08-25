@@ -107,6 +107,126 @@
       <path d="M17.5 19H9a7 7 0 116.71-9h1.79a4.5 4.5 0 010 9z"/>
     </g>
 
+    <!-- Lucide Database -->
+    <g id="databaseIcon">
+      <ellipse cx="12" cy="5" rx="9" ry="3"/>
+      <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+      <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+    </g>
+
+    <!-- Curved Edges Clip Path -->
+    <clipPath id="curvedEdges">
+      <rect x="0" y="0" width="1200" height="360" rx="24" ry="24"/>
+    </clipPath>
+  </defs>="0 0 1200 360">
+  <defs>
+    <!-- Tech background gradient -->
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a1f3a"/>
+      <stop offset="50%" stop-color="#0f1429"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </radialGradient>
+
+    <!-- AI glow effects -->
+    <radialGradient id="aiGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00bfff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00bfff" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="techGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff6b9d" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff6b9d" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Network connections -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glass shadow -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- Light inner glow for the glass edge -->
+    <linearGradient id="glassEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.65)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.15)"/>
+    </linearGradient>
+
+    <!-- Top highlight -->
+    <linearGradient id="highlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.55)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+
+    <!-- Icon Library Definitions -->
+    
+    <!-- Heroicons: Chart Bar -->
+    <g id="chartBar">
+      <path d="M3 13a1 1 0 011-1h1a1 1 0 011 1v3a1 1 0 01-1 1H4a1 1 0 01-1-1v-3zM8 8a1 1 0 011-1h1a1 1 0 011 1v8a1 1 0 01-1 1H9a1 1 0 01-1-1V8zM13 5a1 1 0 011-1h1a1 1 0 011 1v11a1 1 0 01-1 1h-1a1 1 0 01-1-1V5zM18 2a1 1 0 011-1h1a1 1 0 011 1v14a1 1 0 01-1 1h-1a1 1 0 01-1-1V2z"/>
+    </g>
+
+    <!-- Lucide: CPU -->
+    <g id="cpuIcon">
+      <rect x="4" y="4" width="16" height="16" rx="2"/>
+      <rect x="9" y="9" width="6" height="6"/>
+      <path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/>
+    </g>
+
+    <!-- Heroicons: Code Bracket -->
+    <g id="codeBracket">
+      <path d="M8.5 7.5l-3 3 3 3M15.5 7.5l3 3-3 3"/>
+    </g>
+
+    <!-- Lucide: Brain -->
+    <g id="brainIcon">
+      <path d="M12 4.5C13.5 3 15.5 3 17 4.5c2 2-1 8-5 8s-7-6-5-8zM12 4.5C10.5 3 8.5 3 7 4.5c-2 2 1 8 5 8s7-6 5-8z"/>
+      <path d="M12 12.5v7"/>
+    </g>
+
+    <!-- Heroicons: Server -->
+    <g id="serverIcon">
+      <rect x="2" y="2" width="20" height="8" rx="2" ry="2"/>
+      <rect x="2" y="14" width="20" height="8" rx="2" ry="2"/>
+      <line x1="6" y1="6" x2="6" y2="6"/>
+      <line x1="6" y1="18" x2="6" y2="18"/>
+    </g>
+
+    <!-- Lucide: Network -->
+    <g id="networkIcon">
+      <circle cx="9" cy="12" r="1"/>
+      <circle cx="9" cy="5" r="1"/>
+      <circle cx="15" cy="5" r="1"/>
+      <circle cx="15" cy="12" r="1"/>
+      <path d="m9 11-6-6"/>
+      <path d="m15 11 6-6"/>
+      <path d="m9 13-6 6"/>
+      <path d="m15 13 6 6"/>
+    </g>
+
+    <!-- Heroicons: Shield Check -->
+    <g id="shieldCheck">
+      <path d="M12 1l8.5 2.5v8c0 5.5-3.5 10.5-8.5 12-5-1.5-8.5-6.5-8.5-12v-8L12 1z"/>
+      <path d="m9 12 2 2 4-4"/>
+    </g>
+
+    <!-- Lucide: Rocket -->
+    <g id="rocketIcon">
+      <path d="M4.5 16.5c-1.5 1.5-2 5 .5 6.5s5-1 6.5-.5L20 12l2-2-3-3-2 2z"/>
+      <path d="M13.5 9.5L15 8"/>
+      <path d="M6.5 12.5L5 14"/>
+    </g>
+
+    <!-- Heroicons: Cloud -->
+    <g id="cloudIcon">
+      <path d="M17.5 19H9a7 7 0 116.71-9h1.79a4.5 4.5 0 010 9z"/>
+    </g>
+
     <!-- Lucide: Database -->
     <g id="databaseIcon">
       <ellipse cx="12" cy="5" rx="9" ry="3"/>
@@ -115,9 +235,14 @@
     </g>
   </defs>
 
-  <!-- Tech Background -->
-  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <!-- Tech Background with Curved Edges -->
+  <g clip-path="url(#curvedEdges)">
+    <rect width="100%" height="100%" fill="url(#bg)"/>
+  </g>
 
+  <!-- All Content with Curved Clipping -->
+  <g clip-path="url(#curvedEdges)">
+    
   <!-- Neural Network Background -->
   <g opacity="0.3" stroke="#00bfff" stroke-width="0.5" fill="none">
     <!-- Network lines -->
@@ -376,8 +501,15 @@
     <text x="600" y="205" text-anchor="middle"
           font-family="'Fira Code', 'JetBrains Mono', 'Source Code Pro', 'Roboto Mono', 'Consolas', 'Monaco', monospace"
           font-size="18" fill="#b3e5ff" style="letter-spacing:3px; text-transform:uppercase; font-weight:500">
-      Full-stack Developer · AI &amp; Machine Learning · Real-time Systems
+      Passionate about Web Apps and Real-time Systems
     </text>
+    <text x="600" y="230" text-anchor="middle"
+          font-family="'Fira Code', 'JetBrains Mono', 'Source Code Pro', 'Roboto Mono', 'Consolas', 'Monaco', monospace"
+          font-size="14" fill="#80d1ff" style="letter-spacing:2px;  font-weight:400">
+      Full-Stack Developer | Tech Enthusiast | Lifelong Learner
+    </text>
+    
+    
 
     <!-- Tech indicator dots with AI theme -->
     <circle cx="430" cy="230" r="3" fill="#00bfff" opacity="0.9">
@@ -390,4 +522,10 @@
       <animate attributeName="opacity" values="0.9;0.3;0.9" dur="3s" repeatCount="indefinite"/>
     </circle>
   </g>
+  
+  </g> <!-- End curved clipping -->
+  
+  <!-- Curved Border -->
+  <rect x="0" y="0" width="1200" height="360" rx="24" ry="24" 
+        fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
 </svg>
