@@ -40,12 +40,11 @@
 
 ## 📌 Featured Projects
 
-### 🏙️ Virtual City - E-commerce Platform
+### Travel Booking Sri Lanka - Tourism platform
 
-🔹 Role-based Admin, Seller, and Buyer dashboards  
-🔹 Real-time notifications with WebSockets  
-🔹 Analytics dashboards with charts & stats  
-[🔗 View Repository](https://github.com/your-repo-link) | [🌍 Live Demo](https://your-live-demo-link)
+🔹 Role-based Admin, Tourist, Vehicle owner, and Hotel owner dashboards  
+🔹 Real-time status tracking with WebSockets    
+[🔗 View Repository](https://github.com/WeerasingheMSC/Tourism_site.git) | [🌍 Live Demo](https://travelbookingsrilanka.com)
 
 ---
 
