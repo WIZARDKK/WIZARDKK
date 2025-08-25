@@ -11,6 +11,9 @@
 ---
 
 ## 🌟 About Me
+<p align="center">
+  <img src="./assets/profile.svg" alt="Kasun Shakthi — Liquid Glass Banner" />
+</p>
 
 
 ---
