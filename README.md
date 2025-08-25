@@ -2,16 +2,12 @@
 
 🚀 **Full-stack Developer | Passionate about Web Apps & Real-time Systems**  
 
-I’m currently working on my **Virtual City E-commerce Platform** 🏙️, where I handle the **Admin Panel** and **Seller Module** using **Spring Boot + Next.js + PostgreSQL**.  
-I love building scalable apps, dashboards, and real-time notification systems.
+
 
 ---
 
 ## 🌟 About Me
-- 🔭 Working on: Virtual City Admin & Seller Dashboards  
-- 🌱 Learning: WebSockets, Firebase, and Advanced Analytics  
-- 💡 Interested in: Full-stack development, Cloud, and AI-driven apps  
-- 📫 Reach me: [LinkedIn](https://linkedin.com/in/your-link) | [Portfolio](https://your-portfolio-link)  
+
 
 ---
 
@@ -24,7 +20,7 @@ I love building scalable apps, dashboards, and real-time notification systems.
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
 
 ---
 
@@ -35,16 +31,13 @@ I love building scalable apps, dashboards, and real-time notification systems.
 🔹 Analytics dashboards with charts & stats  
 [🔗 View Repository](https://github.com/your-repo-link) | [🌍 Live Demo](https://your-live-demo-link)
 
-### 📊 Portfolio Website (Next.js + Tailwind)  
-🔹 Dark mode only with neon green theme  
-🔹 Projects & resume showcase  
-[🔗 View Repository](https://github.com/your-portfolio-repo) | [🌍 Live Site](https://your-live-site-link)
+
 
 ---
 
 ## 📈 GitHub Stats
-![Kasun's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical)
+![Kasun's GitHub stats](https://github-readme-stats.vercel.app/api?username=WIZARDKK&show_icons=true&theme=radical)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=WIZARDKKlayout=compact&theme=radical)
 
 ---
 
