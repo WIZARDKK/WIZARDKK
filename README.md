@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img src="./assets/glass-banner.svg" alt="Kasun Shakthi — Liquid Glass Banner" />
+  <img src="assets/glass-banner.svg" alt="Kasun Shakthi — Liquid Glass Banner" />
 </p>
 
 ---
@@ -24,6 +24,7 @@
 ---
 
 ## 🛠️ Tech Stack & Tools
+
 
 <p align="center">
   <img src="./assets/framwork-grid.svg" alt="Kasun Shakthi — Liquid Glass Banner" />
