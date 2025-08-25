@@ -2,6 +2,10 @@
 
 🚀 **Full-stack Developer | Passionate about Web Apps & Real-time Systems**  
 
+<p align="center">
+  <img src="./assets/glass-banner.svg" alt="Kasun Shakthi — Liquid Glass Banner" />
+</p>
+
 
 
 ---
