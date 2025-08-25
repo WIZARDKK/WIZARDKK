@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#0a0f19"/>
+    </linearGradient>
+
+    <!-- Soft blue blob gradient -->
+    <radialGradient id="blobA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#99ddff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#99ddff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#66ccff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#66ccff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Subtle noise texture -->
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0 0.015 0"/>
+      </feComponentTransfer>
+    </filter>
+
+    <!-- Glass shadow -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- Light inner glow for the glass edge -->
+    <linearGradient id="glassEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.65)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.15)"/>
+    </linearGradient>
+
+    <!-- Top highlight -->
+    <linearGradient id="highlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.55)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+  <!-- Animated blobs -->
+  <g opacity="0.9">
+    <circle id="a" cx="240" cy="120" r="180" fill="url(#blobA)"/>
+    <animate xlink:href="#a" attributeName="cx" values="240;300;200;240" dur="12s" repeatCount="indefinite"/>
+    <animate xlink:href="#a" attributeName="cy" values="120;80;140;120" dur="10s" repeatCount="indefinite"/>
+
+    <circle id="b" cx="980" cy="260" r="220" fill="url(#blobB)" opacity="0.85"/>
+    <animate xlink:href="#b" attributeName="cx" values="980;940;1020;980" dur="13s" repeatCount="indefinite"/>
+    <animate xlink:href="#b" attributeName="cy" values="260;300;240;260" dur="11s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Noise overlay -->
+  <rect width="100%" height="100%" filter="url(#noise)" opacity="0.18"/>
+
+  <!-- Glass card -->
+  <g filter="url(#shadow)">
+    <rect x="140" y="70" rx="28" ry="28" width="920" height="220"
+          fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.35)" stroke-width="1.2"/>
+    <!-- soft edge sheen -->
+    <rect x="141" y="71" rx="27" ry="27" width="918" height="218"
+          fill="none" stroke="url(#glassEdge)" stroke-width="1"/>
+
+    <!-- top light streak -->
+    <rect x="160" y="86" rx="16" ry="16" width="880" height="48" fill="url(#highlight)" opacity="0.35"/>
+  </g>
+
+  <!-- Headline + sub -->
+  <g>
+    <text x="600" y="155" text-anchor="middle"
+          font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto"
+          font-size="44" fill="#eaf6ff" style="font-weight:700; letter-spacing:0.5px">
+      KASUN SHAKTHI
+    </text>
+
+    <text x="600" y="205" text-anchor="middle"
+          font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto"
+          font-size="18" fill="#d0eaff" style="letter-spacing:2px; text-transform:uppercase">
+      Full-stack Developer · Liquid Glass UI · Real-time Systems
+    </text>
+
+    <!-- tiny glowing indicator dots -->
+    <circle cx="430" cy="230" r="4" fill="#99ddff" opacity="0.9"/>
+    <circle cx="600" cy="230" r="4" fill="#66ccff" opacity="0.9"/>
+    <circle cx="770" cy="230" r="4" fill="#99ddff" opacity="0.9"/>
+  </g>
+</svg>
