@@ -18,15 +18,15 @@
 ## 🛠️ Tech Stack & Tools
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="48" height="48" alt="Java"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="48" height="48" alt="Spring Boot"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="48" height="48" alt="Next.js"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="48" height="48" alt="TailwindCSS"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="48" height="48" alt="Redis"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="48" height="48" alt="Firebase"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="48" height="48" alt="Docker"/>
+  <img src="https://cdn.simpleicons.org/java/ED8B00" width="48"/>
+  <img src="https://cdn.simpleicons.org/springboot/6DB33F" width="48"/>
+  <img src="https://cdn.simpleicons.org/postgresql/316192" width="48"/>
+  <img src="https://cdn.simpleicons.org/nextdotjs/000000" width="48"/>
+  <img src="https://cdn.simpleicons.org/typescript/007ACC" width="48"/>
+  <img src="https://cdn.simpleicons.org/tailwindcss/38B2AC" width="48"/> <!-- ✅ works -->
+  <img src="https://cdn.simpleicons.org/redis/DC382D" width="48"/>
+  <img src="https://cdn.simpleicons.org/firebase/FFCA28" width="48"/>
+  <img src="https://cdn.simpleicons.org/docker/2496ED" width="48"/>
 </p>
 
 
