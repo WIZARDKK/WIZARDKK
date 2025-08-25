@@ -1,6 +1,6 @@
 # Hi there, I'm Kasun Shakthi 👋
 
-🚀 **Full-stack Developer | Passionate about Web Apps & Real-time Systems**
+
 
 <p align="center">
   <img src="./assets/glass-banner.svg" alt="Kasun Shakthi — Liquid Glass Banner" />
@@ -20,13 +20,6 @@
 - ⚡ **Performance Obsessed**: If it can be faster, I'll make it faster
 - 🤝 **Collaboration**: Love working with teams to bring ambitious ideas to life
 - 📚 **Continuous Learning**: The tech world never stops evolving, and neither do I
-
-### Currently:
-
-- 🔭 Working on **Virtual City** - A comprehensive e-commerce platform with real-time features
-- 🌱 Deep diving into **microservices architecture** and **cloud-native development**
-- 👯 Looking to collaborate on **open-source projects** and **innovative web solutions**
-- 💬 Ask me about **React**, **Node.js**, **WebSockets**, and **system design**
 
 ---
 
