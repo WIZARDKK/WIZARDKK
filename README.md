@@ -1,4 +1,4 @@
-# Hi there, I'm Kasun Shakthi 👋
+# Hi there, I'm Kasun Shakthi 
 
 
 
